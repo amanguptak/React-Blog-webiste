@@ -1,0 +1,63 @@
+.login{
+    height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:
+    linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+    url("https://www.travelandleisure.com/thmb/8-WsrVUqVk2_e90wV2i7eaa5sKc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/night-snow-shirakawa-go-village-japan-MOSTSNOW0118-778e976c57514adc9fca5639b49a520b.jpg");
+    background-size: cover;
+    align-items: center;
+}
+.loginTitle{
+    font-size:50px;
+    color:  rgb(245, 247, 249);
+    font-weight: bold;
+}
+
+.loginform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginform>label{
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size:23px;
+    color:rgb(2, 38, 69);
+}
+.loginInput{
+    padding:10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+.logiNButton{
+    margin-top:20px;
+    cursor: pointer;
+    background-color: rgb(2, 27, 49);;
+    border: none;
+    color: white;
+    padding:9px;
+    border-radius:5px;
+}
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(24, 66, 218);
+  }
+.registerButton{
+    position: absolute;
+    top: 60px;
+    right:20px;
+    font-size:20px;
+    font-weight:bold;
+    background-color: rgb(2, 27, 49);
+    cursor: pointer;
+    color: white;
+    border-radius:10px;
+    padding:12px;
+}
